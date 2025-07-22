@@ -1,0 +1,976 @@
+bluetooth.
+card.
+card.inserted : Not Inserted 
+card.cisproc : Processed 
+card.mfgid :  
+card.cardid :  
+card.fncode : 000c 
+card.idtext1 :  
+card.idtext2 :  
+card.idtext3 :  
+card.idtext4 :  
+card.fcrbase : Not Detected 
+card.fcrlist : NONE DETECTED 
+card.defcfg : Not Detected 
+card.cor : Not Present 
+card.mac_addr : 00:00:00:00:00:00 
+card.mac_raw : 000000000000 
+card.enable : on , Choices: on,off
+comm.
+comm.baud : 9600 , Choices: 2400,4800,9600,14400,19200,28800,38400,57600,115200
+comm.data_bits : 8 , Choices: 7,8
+comm.parity : null , Choices: null,odd,even,n,o,e
+comm.stop_bits : 1 , Choices: 1,2
+comm.dsr : off 
+comm.handshake : xon/xoff , Choices: xon/xoff,rts/cts,dsr/dtr
+head.
+head.latch : ok 
+head.resolution.
+head.resolution.in_dpi : 203 
+ip.
+ip.dhcp.
+ip.dhcp.enable : on , Choices: on,off
+ip.dhcp.cid_type : 1 , Choices: 0,1,2
+ip.dhcp.cid_prefix :  
+ip.dhcp.cid_value : 000000000000 
+ip.dhcp.requests_per_session : 2 , Choices: 1-10
+ip.dhcp.request_timeout : 2 , Choices: 2-30
+ip.dhcp.session_interval : 10 , Choices: 0-60
+ip.dhcp.lease.
+ip.dhcp.lease.length : 0 
+ip.dhcp.lease.time_left : 0 
+ip.dhcp.lease.server : 0.0.0.0 
+ip.dhcp.lease.last_attempt : 0 
+ip.dhcp.cache_ip : off , Choices: on,off
+ip.dhcp.vendor_class_id : Zebra Technologies ZTC ZT230-203dpi ZPL 
+ip.dhcp.user_class_id :  
+ip.dhcp.option12 : on , Choices: on,off
+ip.dhcp.option12_format :  
+ip.dhcp.option12_value : 52J171503379 
+ip.dhcp.cid_enable : off , Choices: on,off
+ip.dhcp.cid_suffix : 000000000000 
+ip.dhcp.cid_all : 000000000000 
+ip.dhcp.arp_verify : on , Choices: on,off
+ip.dhcp.auto_provision_enable : on , Choices: on,off
+ip.dhcp.ntp.
+ip.dhcp.ntp.enable : off , Choices: on,off
+ip.dhcp.ntp.received_servers :  
+ip.ftp.
+ip.ftp.enable : on , Choices: on,off
+ip.ftp.execute_file : on , Choices: on,off
+ip.ftp.request_password : no , Choices: yes,no
+ip.lpd.
+ip.lpd.enable : on , Choices: on,off
+ip.tcp.
+ip.tcp.enable : on , Choices: on,off
+ip.tcp.nagle_algorithm : enabled , Choices: enabled,disabled
+ip.udp.
+ip.udp.enable : on , Choices: on,off
+ip.http.
+ip.http.enable : on , Choices: on,off
+ip.http.admin_name : admin 
+ip.http.admin_password : * 
+ip.http.port : 80 
+ip.http.faq_url : https://www.zebra.com/support.html 
+ip.http.custom_link_name :  
+ip.http.custom_link_url :  
+ip.smtp.
+ip.smtp.enable : on , Choices: on,off
+ip.smtp.server_addr : 0.0.0.0 
+ip.smtp.domain : ZBRPrintServer.com 
+ip.pop3.
+ip.pop3.enable : on , Choices: on,off
+ip.pop3.print_headers : off , Choices: on,off
+ip.pop3.verbose_headers : off , Choices: on,off
+ip.pop3.print_body : off , Choices: on,off
+ip.pop3.save_attachments : off , Choices: on,off
+ip.pop3.poll : 240 , Choices: 0-65535
+ip.pop3.username :  
+ip.pop3.password : * 
+ip.pop3.server_addr : 0.0.0.0 
+ip.pop3.print_attachments : off , Choices: on,off
+ip.snmp.
+ip.snmp.enable : on , Choices: on,off
+ip.snmp.get_community_name : * 
+ip.snmp.set_community_name : * 
+ip.snmp.create_mib
+ip.snmp.trap_community_name : public 
+ip.telnet.
+ip.telnet.enable : on , Choices: on,off
+ip.telnet.disconnect
+ip.addr : 0.0.0.0 
+ip.netmask : 255.255.255.0 
+ip.gateway : 0.0.0.0 
+ip.port : 6101 
+ip.remote :  
+ip.ping_remote
+ip.netstat : Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        State
+tcp        0      0  10.55.154.116.9100     10.55.157.52.50422     ESTABLISHED
+tcp        0      0  10.55.154.116.9100     10.55.157.52.52275     ESTABLISHED
+tcp        0      0  *.23                   *.*                    LISTEN
+tcp        0      0  *.9300                 *.*                    LISTEN
+tcp        0      0  *.9200                 *.*                    LISTEN
+tcp        0      0  *.9100                 *.*                    LISTEN
+tcp        0      0  *.6101                 *.*                    LISTEN
+tcp        0      0  *.515                  *.*                    LISTEN
+tcp        0      0  *.21                   *.*                    LISTEN
+tcp        0      0  *.80                   *.*                    LISTEN
+udp        0      0  *.*                    *.*                   
+udp        0      0  *.65534                *.*                   
+udp        0      0  *.161                  *.*                   
+udp        0      0  *.6101                 *.*                   
+udp        0      0  *.4201                 *.*                   
+udp        0      0  *.*                    *.*                   
+
+ 
+ip.remote_port : 10013 
+ip.remote_autoconnect : off , Choices: on,off
+ip.bootp.
+ip.bootp.enable : on , Choices: on,off
+ip.mirror.
+ip.mirror.auto : off , Choices: on,off
+ip.mirror.username : user 
+ip.mirror.password : * 
+ip.mirror.server : 127.0.0.1 
+ip.mirror.path : Zebra 
+ip.mirror.freq : 0 , Choices: 0-65535
+ip.mirror.fetch
+ip.mirror.version : Oct  7 2016 21:40:23 
+ip.mirror.freq_hours : 0 , Choices: 0-100
+ip.mirror.error_retry : 0 , Choices: 0-65535
+ip.mirror.feedback.
+ip.mirror.feedback.auto : off , Choices: on,off
+ip.mirror.feedback.path : Zebra/feedback 
+ip.mirror.feedback.freq : 0 , Choices: 0-65535
+ip.mirror.feedback.odometer : 0 , Choices: 0-4294967295
+ip.mirror.success : no 
+ip.mirror.success_time : Oct 07 2016 00:00:28 
+ip.mirror.last_time : Oct 07 2016 00:00:28 
+ip.mirror.last_error : No Error 
+ip.mirror.mode : ftp , Choices: ftp,sftp
+ip.mirror.reset_delay : 5 , Choices: 0-900
+ip.mirror.interface : both , Choices: both,wired,wireless
+ip.mirror.appl_path :  
+ip.ping_len : 56 , Choices: 56-65535
+ip.dns.
+ip.dns.domain :  
+ip.dns.servers :  
+ip.discovery.
+ip.discovery.enable : on , Choices: on,off
+ip.discovery.port : 4201 
+ip.roam_packet : on , Choices: on,off
+ip.arp_interval : 0 , Choices: 0-30
+ip.primary_network : 1 , Choices: 1
+ip.active_network : internal wired 
+ip.ntp.
+ip.ntp.enable : off , Choices: on,off
+ip.ntp.servers :  
+ip.ntp.log
+ip.port_alternate : 9100 
+ip.port_json_config : 9200 
+ip.port_single_conn : 9300 
+ip.port_single_conn_idle_timeout : 180 , Choices: 0-3600
+label.
+media.
+media.status : ok 
+media.sense_mode : gap , Choices: bar,gap
+media.tof : 0 , Choices: -400.0-128.0
+media.type : label , Choices: label,journal
+media.bar_location :  
+media.printmode : tear off , Choices: tear off,peel off,rewind,cutter,delayed cut,linerless peel,linerless rewind,linerless tear,applicator
+media.speed : 4.0 , Choices: 2.0-6.0
+media.thermal_mode : DT , Choices: DT,TT
+media.cut_now
+media.dynamic_length_calibration : on , Choices: on,off
+media.part_number :  
+media.serial_number :  
+sensor.
+sensor.paper_supply : ok 
+sensor.peeler : clear 
+sensor.recall_factory_cal
+sensor.peeler_present : Not Present 
+wlan.
+wlan.operating_mode : infrastructure , Choices: ad hoc,infrastructure
+wlan.essid : 125 
+wlan.current_essid :  
+wlan.station_name : ZEBRA 
+wlan.current_tx_rate : 1.0 
+wlan.encryption_mode : off , Choices: off,40-bit,128-bit
+wlan.associated : no 
+wlan.encryption_index : 1 , Choices: 1,2,3,4
+wlan.encryption_key1 : * 
+wlan.encryption_key2 : * 
+wlan.encryption_key3 : * 
+wlan.encryption_key4 : * 
+wlan.leap_mode : off , Choices: on,off
+wlan.leap_username :  
+wlan.leap_password : * 
+wlan.power_save : off , Choices: on,off
+wlan.auth_type : open , Choices: open,shared
+wlan.preamble : long , Choices: long,short
+wlan.bssid : 00:00:00:00:00:00 
+wlan.firmware_version : 00.00.00 
+wlan.signal_strength : 0 
+wlan.poor_signal_threshold : 0 , Choices: 0-100
+wlan.current_freq
+wlan.international_mode : off , Choices: on,off
+wlan.roam.
+wlan.roam.signal : 40 , Choices: 1-75
+wlan.roam.interval : 5 , Choices: 5-255
+wlan.roam.interchannel_delay : 400 , Choices: 10-30000
+wlan.roam.max_chan_scan_time : 100 , Choices: 10-500
+wlan.roam.rssi : 80 , Choices: 60-125
+wlan.roam.max_fail : 10 , Choices: 2-75
+wlan.roam.monitor : off , Choices: off,print,serial,file
+wlan.channel_mask : 0x7FF , Choices: 14 bits
+wlan.channel :  
+wlan.wpa.
+wlan.wpa.enable : off , Choices: off,on
+wlan.wpa.authentication : psk , Choices: psk,leap,peap,eap-tls,ttls,fast
+wlan.wpa.psk : * 
+wlan.wpa.wpa_version : none 
+wlan.wpa.groupkey_ciphersuite : NONE 
+wlan.wpa.pairwise_ciphersuite : NONE 
+wlan.wpa.timecheck : yes , Choices: yes,no
+wlan.8021x.
+wlan.8021x.enable : off , Choices: off,on,wpa
+wlan.8021x.authentication : psk , Choices: psk,leap,peap,eap-tls,ttls,fast
+wlan.8021x.ttls_tunnel : pap , Choices: pap,chap,mschap,mschapv2
+wlan.8021x.peap.
+wlan.8021x.peap.peap_username :  
+wlan.8021x.peap.peap_password : * 
+wlan.8021x.peap.privkey_password : * 
+wlan.8021x.peap.validate_server_certificate : on , Choices: on,off
+wlan.8021x.eap.
+wlan.8021x.eap.username :  
+wlan.8021x.eap.password : * 
+wlan.8021x.eap.privkey_password : * 
+wlan.adhocchannel : 1 , Choices: 1,2,3,4,5,6,7,8,9,10,11,12,13,14
+wlan.adhocautomode : off , Choices: on,off
+wlan.enable : on , Choices: on,off
+wlan.encryption_optional : no , Choices: yes,no
+wlan.adhoc_last_channel
+wlan.secure_ssid : off , Choices: on,off
+wlan.ip.
+wlan.ip.addr : 0.0.0.0 
+wlan.ip.netmask : 255.255.255.0 
+wlan.ip.gateway : 0.0.0.0 
+wlan.ip.port : 6101 
+wlan.ip.arp_interval : 0 , Choices: 0-30
+wlan.ip.dhcp.
+wlan.ip.dhcp.requests_per_session : 2 , Choices: 1-10
+wlan.ip.dhcp.request_timeout : 2 , Choices: 2-30
+wlan.ip.dhcp.session_interval : 10 , Choices: 0-60
+wlan.ip.dhcp.lease.
+wlan.ip.dhcp.lease.length : 0 
+wlan.ip.dhcp.lease.time_left : 0 
+wlan.ip.dhcp.lease.server : 0.0.0.0 
+wlan.ip.dhcp.lease.last_attempt : 0 
+wlan.ip.dhcp.cache_ip : off , Choices: on,off
+wlan.ip.dhcp.cid_type : 1 , Choices: 0,1,2
+wlan.ip.dhcp.cid_prefix :  
+wlan.ip.dhcp.cid_enable : off , Choices: on,off
+wlan.ip.dhcp.cid_suffix : 000000000000 
+wlan.ip.dhcp.cid_all : 000000000000 
+wlan.ip.dhcp.option12 : on , Choices: on,off
+wlan.ip.dhcp.option12_format :  
+wlan.ip.dhcp.option12_value : 52J171503379 
+wlan.ip.dhcp.arp_verify : on , Choices: on,off
+wlan.ip.protocol : all , Choices: all,bootp,dhcp,dhcp and bootp,gleaning only,rarp,permanent
+wlan.ip.default_addr_enable : on , Choices: off,on,saved_ip
+wlan.ip.timeout.
+wlan.ip.timeout.enable : on , Choices: on,off
+wlan.ip.timeout.value : 300 , Choices: 1-3600
+wlan.ip.dns.
+wlan.ip.dns.domain :  
+wlan.ip.dns.servers :  
+wlan.ip.wins.
+wlan.ip.wins.addr : 0.0.0.0 
+wlan.ip.wins.permanent_source : off , Choices: on,off
+wlan.ip.port_alternate : 9100 
+wlan.ip.port_json_config : 9200 
+wlan.keep_alive.
+wlan.keep_alive.enable : on , Choices: on,off
+wlan.keep_alive.timeout : 15 , Choices: 5-300
+wlan.wep.
+wlan.wep.index : 1 , Choices: 1,2,3,4
+wlan.wep.optional : no , Choices: yes,no
+wlan.wep.auth_type : open , Choices: open,shared
+wlan.wep.key_format : hex , Choices: hex,ascii
+wlan.wep.key1 : * 
+wlan.wep.key2 : * 
+wlan.wep.key3 : * 
+wlan.wep.key4 : * 
+wlan.security : none , Choices: none,wep 40-bit,wep 128-bit,eap-tls,eap-ttls,eap-fast,peap,leap,wpa psk,wpa eap-tls,wpa eap-ttls,wpa eap-fast,wpa peap,wpa leap
+wlan.private_key_password : * 
+wlan.username :  
+wlan.password : * 
+wlan.mac_addr : 00:00:00:00:00:00 
+wlan.mac_raw : 000000000000 
+wlan.11n.
+wlan.11n.greenfield : unsupported 
+wlan.11n.short_gi_40mhz : unsupported 
+wlan.11n.short_gi_20mhz : unsupported 
+wlan.11n.rifs : unsupported 
+wlan.11n.20mhz_only : unsupported 
+wlan.11n.amsdu : unsupported 
+wlan.region_code : all 
+wlan.country_code : all , Choices: all
+wlan.user_channel_list : 1,2,3,4,5,6,7,8,9,10,11 , Choices: 1,2,3,4,5,6,7,8,9,10,11,all
+wlan.allowed_band : 2.4 , Choices: 2.4
+wlan.waveagent.
+wlan.waveagent.enable : unsupported 
+wlan.waveagent.udp_port : unsupported 
+wlan.permitted_channels : 1,2,3,4,5,6,7,8,9,10,11 
+wlan.active_channels : 1,2,3,4,5,6,7,8,9,10,11 
+wlan.11d.
+wlan.11d.enable : off , Choices: on,off
+wlan.11d.current_country : not available 
+wlan.11d.discovered_channels : not available 
+wlan.authenticated : no 
+wlan.available : no 
+wlan.authentication_error : none 
+wlan.regulatory_data_version : 1.19 
+wlan.rts_cts_enabled
+wlan.11ac.
+wlan.11ac.short_gi_80mhz : unsupported 
+wlan.11ac.ldpc : unsupported 
+wlan.11ac.stbc : unsupported 
+wlan.11ac.80mhz_enable : unsupported 
+wlan.pmf : enabled , Choices: disabled,enabled,required
+display.
+display.contrast : 10 , Choices: 3-15
+display.text :                        PRINTER READY                           10.55.154.116                                             Â                   
+display.backlight : on , Choices: on,off
+display.orientation : normal , Choices: normal
+display.backlight_on_time : 0 , Choices: 0-8191
+display.suppress_all_alerts : off , Choices: on,off
+display.status_bar_suppress : off , Choices: on,off
+display.language : english , Choices: english,spanish,french,german,italian,norwegian,portuguese,swedish,danish,spanish2,dutch,finnish,japanese,korean,simp chinese,trad chinese,russian,polish,czech,romanian
+display.load_card : Z:INDEX.WML 
+display.root_wml : INDEX.WML 
+display.previous_displayed_card : Z:INDEX.WML#DoMainNet 
+display.password.
+display.password.current : * , Choices: 0-9999
+display.password.input
+display.password.length : 4 , Choices: 4-4
+display.password.type : numeric , Choices: numeric
+display.password.level : none , Choices: selected,all,none
+display.batch_counter : disabled , Choices: enabled,disabled
+memory.
+memory.flash_size : 33554432 Bytes 
+memory.ram_size : 4194304 Bytes 
+memory.flash_free : 33383936 Bytes Free 
+memory.ram_free : 4171776 Bytes Free 
+power.
+file.
+file.dir : 
+- DIR *:*.* 
+* E:TT0003M_.TTF    169188  P       
+* Z:0.TTF    125904  P    0  
+* Z:A.FNT      6839  P    A  
+* Z:AZTEC.BAR         0  P       
+* Z:B.FNT      7746  P    B  
+* Z:BLUETOOTH_ICON.BMP       128  P       
+* Z:BLUETOOTH_NOT_AVAILABLE_ICON.BMP       128  P       
+* Z:CODABAR.BAR         0  P       
+* Z:CODABLK.BAR         0  P       
+* Z:CODE11.BAR         0  P       
+* Z:CODE128.BAR         0  P       
+* Z:CODE39.BAR         0  P       
+* Z:CODE49.BAR         0  P       
+* Z:CODE93.BAR         0  P       
+* Z:D.FNT     10648  P    CD 
+* Z:DATA_BLANK_ICON.BMP       128  P       
+* Z:DATA_ICON.BMP       128  P       
+* Z:DISPLYQR.WML      2996  P       
+* Z:DOWN_ARROW_ICON.BMP       122  P       
+* Z:E12.FNT     15691  P       
+* Z:E24.FNT     47056  P       
+* Z:E6.FNT      8520  P       
+* Z:E8.FNT     10893  P    E  
+* Z:EAN-13.BAR         0  P       
+* Z:EAN-8.BAR         0  P       
+* Z:ELEMENTOUT.ZPL      3830  P       
+* Z:EPL1.FNT     17718  P       
+* Z:EPL2.FNT     20918  P       
+* Z:EPL3.FNT     24118  P       
+* Z:EPL300-1.FNT     24118  P       
+* Z:EPL300-2.FNT     30518  P       
+* Z:EPL300-3.FNT     51318  P       
+* Z:EPL300-4.FNT     72686  P       
+* Z:EPL300-5.FNT    107958  P       
+* Z:EPL4.FNT     32870  P       
+* Z:EPL5.FNT     58038  P       
+* Z:EPL6.FNT      8498  P       
+* Z:EPL7.FNT      8928  P       
+* Z:ETHERNET_ICON.BMP       128  P       
+* Z:F.FNT     13275  P    F  
+* Z:FIRSTDOTLOCATION.ZPL     10420  P       
+* Z:G.FNT     49663  P    G  
+* Z:GS.FNT      5470  P    ?  
+* Z:H12.FNT     11536  P       
+* Z:H24.FNT     30436  P       
+* Z:H6.FNT      7247  P       
+* Z:H8.FNT      7825  P    H  
+* Z:HOMEMENU.WML      2429  P       
+* Z:I2OF5.BAR         0  P       
+* Z:IDMATRIX.BAR         0  P       
+* Z:IMAGECOMPRESSION.ZPL      9524  P       
+* Z:IND2OF5.BAR         0  P       
+* Z:INDEX.WML     10189  P       
+* Z:LANGUAGE.BMP       400  P       
+* Z:LANGUAGE.WML     12734  P       
+* Z:LOGMARS.BAR         0  P       
+* Z:LOGO.PNG     20154  P       
+* Z:MAXICODE.BAR         0  P       
+* Z:MEDIA_BLANK_ICON.BMP       128  P       
+* Z:MEDIA_ICON.BMP       128  P       
+* Z:MIB200.TXT     46572  P       
+* Z:MICROPDF.BAR         0  P       
+* Z:MONOBD15.FNT      5570  P       
+* Z:MSICODE.BAR         0  P       
+* Z:NETWORK.BMP       400  P       
+* Z:NETWORK.WML     25574  P       
+* Z:NJ20WGL4.FNT    359678  P       
+* Z:NK20WGL4.FNT    710064  P       
+* Z:NS20WGL4.FNT   1248664  P       
+* Z:NT20WGL4.FNT    847138  P       
+* Z:ONEDOT.BMP        58  P       
+* Z:P.FNT       116  P    P  
+* Z:PASSWORD.WML      1304  P       
+* Z:PDF417.BAR         0  P       
+* Z:PLANETCD.BAR         0  P       
+* Z:PLESSEY.BAR         0  P       
+* Z:PORTS.BMP       400  P       
+* Z:PORTS.WML      8018  P       
+* Z:POSTNET.BAR         0  P       
+* Z:Q.FNT       116  P    Q  
+* Z:QCKCNTDO.WML      3598  P       
+* Z:QCKCNTMK.WML      2673  P       
+* Z:QRCODE.BAR         0  P       
+* Z:R.FNT       116  P    R  
+* Z:REGDB.NRD    297896  P       
+* Z:REPRINT.NRD         3  P       
+* Z:RESETNET.NRD         3  P       
+* Z:RFIDRCPE.XML     32780  P       
+* Z:RIBBON_IN_ICON.BMP       126  P       
+* Z:RIBBON_OUT_ICON.BMP       128  P       
+* Z:RSS.BAR         0  P       
+* Z:S.FNT       116  P    S  
+* Z:S2OF5.BAR         0  P       
+* Z:SENSORS.BMP       400  P       
+* Z:SENSORS.WML     10293  P       
+* Z:SERVER        20  P       
+* Z:SETTINGS.BMP       400  P       
+* Z:SETTINGS.WML     17072  P       
+* Z:SIGNAL_STRENGTH_0_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_1_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_2_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_3_BAR_ICON.BMP       128  P       
+* Z:SIGNAL_STRENGTH_4_BAR_ICON.BMP       128  P       
+* Z:SPACE20.BMP       222  P       
+* Z:SPACE34.BMP       382  P       
+* Z:T.FNT       116  P    T  
+* Z:TELNET.WML     16941  P       
+* Z:TLC39.BAR         0  P       
+* Z:TOOLS.BMP       400  P       
+* Z:TOOLS.WML     24248  P       
+* Z:U.FNT       116  P    U  
+* Z:UIF.SS     11596  P       
+* Z:UPC-A.BAR         0  P       
+* Z:UPC-E.BAR         0  P       
+* Z:UPC-EAN.BAR         0  P       
+* Z:UP_ARROW_ICON.BMP       122  P       
+* Z:UTT.SS     11588  P       
+* Z:V.FNT       116  P    V  
+
+-   4171776 bytes free R: RAM 
+-  33383936 bytes free E: ONBOARD FLASH 
+ 
+file.type : "?" 
+file.delete
+file.print
+file.run
+file.rename
+file.append
+file.dir_format : zpl , Choices: zpl
+file.drive_info
+file.drive_listing
+file.capture_response.
+file.capture_response.begin
+file.capture_response.end
+file.capture_response.destination : printer_file , Choices: printer_file,usb_file
+odometer.
+odometer.user_label_count : 507 , Choices: 0-4294967295
+odometer.user_label_count1 : 150269 
+odometer.user_label_count2 : 150269 
+odometer.total_label_count : 150269 
+odometer.total_print_length : 954838 INCHES, 2425290 CENTIMETERS 
+odometer.latch_open_count : 1621 
+odometer.label_dot_length : 1252 
+odometer.media_marker_count : 187068 
+odometer.media_marker_count1 : 954838 INCHES, 2425290 CENTIMETERS 
+odometer.media_marker_count2 : 954838 INCHES, 2425290 CENTIMETERS 
+odometer.headclean : 954838 INCHES, 2425290 CENTIMETERS 
+odometer.headnew : 954838 INCHES, 2425290 CENTIMETERS 
+odometer.total_cuts : 0 
+odometer.user_total_cuts : 0 
+odometer.rfid.
+appl.
+appl.date : 10/7/2016 
+appl.name : V72.20.01Z 
+appl.version : 7220 
+appl.bootblock : 3.5.9 
+appl.link_os_version : 4.0 
+device.
+device.reset
+device.restore_defaults, Choices: wlan,ip,display,power,bluetooth,all,device.alerts
+device.prompted_network_reset, Choices: yes,no
+device.friendly_name : 52J171503379 
+device.company_name : Zebra Technologies 
+device.product_name : ZT230 
+device.product_name_submodel : none 
+device.company_contact :  
+device.location :  
+device.position.
+device.position.latitude : 0.000000 , Choices: -90.0-90.0
+device.position.longitude : 0.000000 , Choices: -180.0-180.0
+device.position.altitude : 0.000000 , Choices: -10000.0-406700000.0
+device.position.accuracy : 0.000000 , Choices: 0.0-406700000.0
+device.status : ready 
+device.idle_display_format : fw version , Choices: fw version,ip address,mm/dd/yyyy 24 hr,mm/dd/yyyy 12 hr,dd/mm/yyyy 24 hr,dd/mm/yyyy 12 hr
+device.idle_display_value : V72.20.01Z 
+device.sensor_select : reflective , Choices: reflective,transmissive
+device.jobs_print : 1 
+device.languages : epl_zpl , Choices: zpl,hybrid_xml_zpl,epl_zpl,epl
+device.cph_enable : off , Choices: on,off
+device.cph_interval : 0 , Choices: 0-65535
+device.macro_get :  
+device.user_p1 :  
+device.user_p2 :  
+device.uptime : 02 days 04 hours 00 mins 06 secs 
+device.volume :  
+device.local_menu_mode : off , Choices: off,on
+device.printhead.
+device.printhead.serialnum : P1028902/2406-02096A 
+device.printhead.coldwarning :  
+device.printhead.resolution : 8.0 
+device.frontpanel.
+device.frontpanel.line1 :  
+device.frontpanel.line2 :  
+device.frontpanel.line3 :  
+device.frontpanel.line4 :  
+device.frontpanel.xml : <FRONT-PANEL>
+<STATUS-BAR>
+<BLUETOOTH>NOT-INSTALLED</BLUETOOTH>
+<WLAN>NOT-INSTALLED</WLAN>
+<SIGNAL-STRENGTH>NOT-INSTALLED</SIGNAL-STRENGTH>
+<MEDIA>MEDIA-PRESENT</MEDIA>
+<ETHERNET>CONNECTED</ETHERNET>
+<BATTERY-LEVEL>0-BAR</BATTERY-LEVEL>
+<LATCH>LATCH-CLOSED</LATCH>
+<ERROR>NO-PRINTER-ERROR</ERROR>
+</STATUS-BAR>
+<LCD>
+<LINE1></LINE1>
+<LINE2>PRINTER READY</LINE2>
+<LINE3></LINE3>
+<LINE4>V72.20.01Z</LINE4>
+<LINE5></LINE5>
+</LCD>
+<NAVIGATION-BAR>
+<M1>Âª</M1>
+<M2></M2>
+<M3></M3>
+</NAVIGATION-BAR>
+</FRONT-PANEL> 
+device.frontpanel.key_press
+device.unique_id : 52J171503379 
+device.xml.
+device.xml.enable : on , Choices: on,off
+device.ff_disable : off , Choices: on,off
+device.pnp_option : zpl , Choices: zpl,epl
+device.pnp_string : MANUFACTURER:Zebra Technologies ;COMMAND SET:ZPL;MODEL:ZTC ZT230-200dpi ZPL;CLASS:PRINTER;OPTIONS:XML; 
+device.download_connection_timeout : 0 , Choices: 0-65535
+device.print_reprogram_2key : on , Choices: on,off
+device.epl_legacy_mode : off 
+device.command_override.
+device.command_override.add
+device.command_override.clear
+device.command_override.list :  
+device.command_override.active : yes , Choices: yes,no
+device.host_identification : ZT230-200dpi,V72.20.01Z,8,4096KB 
+device.host_status : 030,0,0,1252,000,0,0,0,000,0,0,0
+000,0,0,0,0,2,6,0,00000000,1,000
+1234,0 
+device.super_host_status
+device.pause
+device.unpause
+device.serial_numbers.
+device.serial_numbers.mlb :  
+device.serial_numbers.mlb_date :  
+device.serial_numbers.option_board :  
+device.serial_numbers.option_board_date :  
+device.serial_numbers.control_panel :  
+device.serial_numbers.control_panel_date :  
+device.serial_numbers.cutter :  
+device.serial_numbers.cutter_date :  
+device.ltu_installed : no 
+device.cutter_installed : no 
+device.rewinder_installed : no 
+device.bluetooth_installed :  
+device.print_out_report, Choices: settings,network,formats,images,fonts,barcodes,all,sensor profile
+device.diagnostic_print : disabled , Choices: disabled,enabled
+device.job_log.
+device.job_log.total_jobs : 31 
+device.internal_wired_setting_location : printserver , Choices: printer,printserver
+device.print_geometry_revision : 0 
+device.user_vars.
+device.user_vars.create
+device.user_vars.set_range
+device.docked :  
+device.slot_1 : wired 
+device.syslog.
+device.syslog.enable : off , Choices: off,on
+device.syslog.configuration :  
+device.syslog.save_local_file : no , Choices: no,yes
+device.syslog.log_max_file_size : 10000 , Choices: 10000-400000
+device.syslog.entries
+device.syslog.clear_log
+device.feature.
+device.feature.mfi : not available 
+device.feature.mcr : not available 
+device.feature.bluetooth_le : not available 
+device.feature.nfc : not available 
+device.feature.ribbon_cartridge : not available 
+device.feature.lock : not available 
+device.feature.802_11ac : not available 
+device.feature.applicator : not available 
+device.feature.lighted_arrows : not available 
+device.alerts.
+device.alerts.audible :  
+device.pmcu.
+device.pmcu.revision :  
+device.pmcu.desired_revision :  
+device.mcu_communication.
+device.mcu_communication.revision :  
+device.mcu_communication.desired_revision :  
+device.mcu_cutter.
+device.mcu_cutter.revision :  
+device.mcu_cutter.desired_revision :  
+device.set_clock_to_build_date : enabled , Choices: enabled,disabled
+input.
+input.capture : off , Choices: print,run,usb_host,off
+print.
+print.tone : 15.0 , Choices: 0.0-30.0
+print.tone_format : zpl , Choices: zpl
+print.tone_zpl : 15.0 , Choices: 0.0-30.0
+print.troubleshooting_label_choices :  
+print.troubleshooting_label_print
+mcr.
+rtc.
+rtc.time : 04:00:07 
+rtc.date : 10-09-2016 
+rtc.timezone : UTC00 
+rtc.exists : no 
+usb.
+usb.device.
+usb.device.vendor_id : 0x0A5F 
+usb.device.product_id : 0x00D5 
+usb.device.device_version : 1.1 
+usb.device.product_string : ZTC ZT230-203dpi ZPL 
+usb.device.manufacturer_string : Zebra Technologies 
+usb.device.serial_string : 52J171503379 
+usb.device.device_id_string : MANUFACTURER:Zebra Technologies ;COMMAND SET:ZPL;MODEL:ZTC ZT230-200dpi ZPL;CLASS:PRINTER;OPTIONS:XML; 
+usb.device.device_unique_id : on , Choices: on,off
+usb.connected : no 
+usb.halt : no , Choices: yes,no
+log.
+log.reboot.
+log.reboot.code : 11 
+log.reboot.reason : Off key 
+log.reboot.codes : b9bbbb9bbbbbbbbbbbbbbb99bbbbbbbb 
+log.reboot.report : Off key
+Unknown-1
+Off key
+Off key
+Off key
+Off key
+Unknown-1
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Unknown-1
+Unknown-1
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+Off key
+ 
+netmanage.
+netmanage.type : none , Choices: none,avalanche
+netmanage.status_code : 0 
+netmanage.state_code : 0 
+netmanage.error_code : 0 
+netmanage.avalanche.
+netmanage.avalanche.model_name :  
+netmanage.avalanche.interval : 60000 , Choices: 0-4294967295
+netmanage.avalanche.startup_update : off , Choices: on,off
+netmanage.avalanche.interval_update : off , Choices: on,off
+netmanage.avalanche.agent_addr : 0.0.0.0 
+netmanage.avalanche.available_agent : 0.0.0.0 
+netmanage.avalanche.available_port : 1 , Choices: 1-65535
+netmanage.avalanche.encryption_type : 0 , Choices: 0-255
+netmanage.avalanche.udp_timeout : 3000 , Choices: 0-4294967295
+netmanage.avalanche.tcp_connection_timeout : 3000 , Choices: 0-4294967295
+netmanage.avalanche.terminal_id : 0 , Choices: 0-65535
+netmanage.avalanche.realtime_update_int : 300 , Choices: 0-4294967295
+netmanage.avalanche.text_msg.
+netmanage.avalanche.text_msg.print : off , Choices: on,off
+netmanage.avalanche.text_msg.display : off , Choices: on,off
+netmanage.avalanche.text_msg.beep : off , Choices: on,off
+netmanage.avalanche.set_property
+zbi.
+zbi.revision : ZBI Version 2.1 
+zbi.state : off 
+zbi.last_error :  
+zbi.program_list, Choices: fill,execute
+zbi.start_info.
+zbi.start_info.file_name : *:\.BAZ 
+zbi.start_info.memory_alloc : 0 
+zbi.start_info.execute
+zbi.control.
+zbi.control.terminate
+zbi.control.run
+zbi.control.break
+zbi.control.restart
+zbi.control.step
+zbi.control.variable_name :  
+zbi.control.variable_value :  
+zbi.control.add_breakpoint
+zbi.control.delete_breakpoint
+zbi.control.clear_breakpoints
+zbi.control.line_number : 0 
+zbi.reseller_key
+zbi.key : DISABLED  
+zbi.running_program_name :  
+zbi.key_version : 1.1 
+zpl.
+zpl.calibrate
+zpl.relative_darkness : 150 , Choices: -300-300
+zpl.save
+zpl.label_length : 1252 , Choices: 1-32000
+zpl.left_position : 0 , Choices: -9999-9999
+zpl.format_prefix : ^ (5E) , Choices: 00-FF,00-ff
+zpl.command_prefix : ~ (7E) , Choices: 00-FF,00-ff
+zpl.delimiter : , (2C) , Choices: 00-FF,00-ff
+zpl.zpl_mode : zpl II , Choices: zpl II,zpl
+zpl.system_status : 0,0,00000000,00000000,0,00000000,00000000 
+zpl.system_error : 0,0,00000000,00000000 
+zpl.no_errors_boot_done : yes 
+zpl.print_orientation : nor , Choices: nor,inv
+zpl.label_top : 0 , Choices: -120-120
+internal_wired.
+internal_wired.ip.
+internal_wired.ip.addr : 10.55.154.116 
+internal_wired.ip.netmask : 255.255.254.0 
+internal_wired.ip.gateway : 10.55.154.1 
+internal_wired.ip.port : 6101 
+internal_wired.ip.arp_interval : 0 , Choices: 0-30
+internal_wired.ip.dhcp.
+internal_wired.ip.dhcp.requests_per_session : 2 , Choices: 1-10
+internal_wired.ip.dhcp.request_timeout : 2 , Choices: 2-30
+internal_wired.ip.dhcp.session_interval : 10 , Choices: 0-60
+internal_wired.ip.dhcp.lease.
+internal_wired.ip.dhcp.lease.length : 0 
+internal_wired.ip.dhcp.lease.time_left : 0 
+internal_wired.ip.dhcp.lease.server : 0.0.0.0 
+internal_wired.ip.dhcp.lease.last_attempt : 0 
+internal_wired.ip.dhcp.cache_ip : off , Choices: on,off
+internal_wired.ip.dhcp.cid_type : 1 , Choices: 0,1,2
+internal_wired.ip.dhcp.cid_prefix :  
+internal_wired.ip.dhcp.cid_enable : off , Choices: on,off
+internal_wired.ip.dhcp.cid_suffix : 00074D766AD5 
+internal_wired.ip.dhcp.cid_all : 00074D766AD5 
+internal_wired.ip.dhcp.option12 : on , Choices: on,off
+internal_wired.ip.dhcp.option12_format :  
+internal_wired.ip.dhcp.option12_value : 52J171503379 
+internal_wired.ip.dhcp.arp_verify : on , Choices: on,off
+internal_wired.ip.protocol : permanent , Choices: all,bootp,dhcp,dhcp and bootp,gleaning only,rarp,permanent
+internal_wired.ip.default_addr_enable : on , Choices: off,on,saved_ip
+internal_wired.ip.timeout.
+internal_wired.ip.timeout.enable : on , Choices: on,off
+internal_wired.ip.timeout.value : 300 , Choices: 1-3600
+internal_wired.ip.dns.
+internal_wired.ip.dns.domain :  
+internal_wired.ip.dns.servers :  
+internal_wired.ip.wins.
+internal_wired.ip.wins.addr : 0.0.0.0 
+internal_wired.ip.wins.permanent_source : off , Choices: on,off
+internal_wired.ip.port_alternate : 9100 
+internal_wired.ip.port_json_config : 9200 
+internal_wired.mac_addr : 00:07:4D:76:6A:D5 
+internal_wired.mac_raw : 00074D766AD5 
+internal_wired.auto_switchover : on , Choices: on,off
+internal_wired.installed : yes 
+internal_wired.link : yes 
+internal_wired.activity_led : blink , Choices: blink,solid
+rfid.
+interface.
+interface.network.
+interface.network.settings_require_reset : no 
+interface.network.active.
+interface.network.active.printserver : internal wired 
+interface.network.active.ip_addr : 10.55.154.116 
+interface.network.active.netmask : 255.255.254.0 
+interface.network.active.gateway : 10.55.154.1 
+interface.network.active.protocol : permanent 
+interface.network.active.default_addr_enable : on 
+interface.network.active.wins_addr : 0.0.0.0 
+interface.network.active.arp_interval : 0 
+interface.network.active.mac_addr : 00:07:4D:76:6A:D5 
+interface.network.active.mac_raw : 00074D766AD5 
+interface.network.active.server_protocol : permanent 
+interface.network.active.server_address : 10.55.154.116 
+interface.network.active.dhcp_received_host_name :  
+interface.network.active.cable_type : 10/100 BaseT 
+interface.network.active.speed : 100 
+interface.network.active.rx_packets :  
+interface.network.active.rx_errors :  
+interface.network.active.tx_packets :  
+interface.network.active.tx_errors :  
+interface.network.active.protocol_error : None 
+cutter.
+cutter.clean_cutter : off , Choices: on,off
+apl.
+apl.enable : none , Choices: none
+apl.framework_version : 1.2 
+apl.version : none 
+apl.o.
+apl.o.graphics_byte_width :  , Choices: 0-255
+parallel_port.
+parallel_port.mode :  
+parallel_port.present : not installed 
+formats.
+formats.cancel_all :  
+ezpl.
+ezpl.print_width : 832 , Choices: 2-832
+ezpl.media_type : gap/notch , Choices: continuous,gap/notch,mark
+ezpl.print_method : direct thermal , Choices: thermal trans,direct thermal
+ezpl.tear_off : 0 , Choices: -120-120
+ezpl.print_mode : tear off , Choices: tear off,peel off,rewind,cutter,delayed cut,linerless peel,linerless rewind,linerless tear,applicator
+ezpl.reprint_mode : on , Choices: on,off
+ezpl.head_close_action : calibrate , Choices: calibrate,feed,length,no motion,short cal
+ezpl.power_up_action : calibrate , Choices: calibrate,feed,length,no motion,short cal
+ezpl.label_length_max : 39 , Choices: 1.0-39.0
+ezpl.manual_calibration : complete , Choices: inProgress,complete
+ezpl.label_sensor : 87 , Choices: 0-255
+ezpl.take_label : 255 , Choices: 0-255
+ezpl.restore_defaults, Choices: reload printer,reload network
+alerts.
+alerts.configured : COLD START,SNMP,Y,N,255.255.255.255,162,N 
+alerts.add
+alerts.conditions : ALL MESSAGES, PAPER OUT, RIBBON OUT, HEAD TOO HOT, HEAD COLD, HEAD OPEN, SUPPLY TOO HOT, RIBBON IN, REWIND, CUTTER JAMMED, PRINTER PAUSED, PQ JOB COMPLETED, LABEL READY, HEAD ELEMENT BAD, BASIC RUNTIME, BASIC FORCED, POWER ON, CLEAN PRINTHEAD, MEDIA LOW, RIBBON LOW, REPLACE HEAD, BATTERY LOW, RFID ERROR, MOTOR OVERTEMP, PRINTHEAD SHUTDOWN, COLD START, SGD SET, SHUTTING DOWN, RESTARTING, NO READER PRESENT, THERMISTOR FAULT, INVALID HEAD, COUNTRY CODE ERROR, MCR RESULT READY, PMCU DOWNLOAD, RIBBON AUTH ERROR, ODOMETER TRIGGERED 
+alerts.destinations : SERIAL, PARALLEL, E-MAIL, TCP, UDP, SNMP, USB, HTTP-POST, BLUETOOTH, SDK 
+alerts.tracked_settings.
+alerts.tracked_settings.zbi_notified :  
+alerts.tracked_settings.log_tracked :  
+alerts.tracked_settings.log :  
+alerts.tracked_settings.max_log_entries : 100 , Choices: 0-10000
+alerts.tracked_settings.clear_log
+alerts.http.
+alerts.http.proxy :  
+alerts.http.logging.
+alerts.http.logging.entries
+alerts.http.logging.max_entries : 0 , Choices: 0-10000
+alerts.http.logging.clear
+alerts.http.authentication.
+alerts.http.authentication.add
+alerts.http.authentication.remove
+alerts.http.authentication.entries :  
+weblink.
+weblink.enable : off 
+weblink.printer_reset_required : no 
+weblink.restore_defaults
+weblink.logging.
+weblink.logging.entries
+weblink.logging.max_entries : 0 , Choices: 0-10000
+weblink.logging.clear
+weblink.ip.
+weblink.ip.conn1.
+weblink.ip.conn1.location :  
+weblink.ip.conn1.retry_interval : 10 , Choices: 1-600
+weblink.ip.conn1.proxy :  
+weblink.ip.conn1.maximum_simultaneous_connections : 10 , Choices: 1-100
+weblink.ip.conn1.authentication.
+weblink.ip.conn1.authentication.add
+weblink.ip.conn1.authentication.remove
+weblink.ip.conn1.authentication.entries :  
+weblink.ip.conn1.test.
+weblink.ip.conn1.test.location : http://www.zebra.com/apps/linktest 
+weblink.ip.conn1.test.test_on : failure , Choices: off,failure,interval,both
+weblink.ip.conn1.test.retry_interval : 900 , Choices: 1-1800
+weblink.ip.conn1.num_connections : 0 
+weblink.ip.conn2.
+weblink.ip.conn2.location :  
+weblink.ip.conn2.retry_interval : 10 , Choices: 1-600
+weblink.ip.conn2.proxy :  
+weblink.ip.conn2.maximum_simultaneous_connections : 10 , Choices: 1-100
+weblink.ip.conn2.authentication.
+weblink.ip.conn2.authentication.add
+weblink.ip.conn2.authentication.remove
+weblink.ip.conn2.authentication.entries :  
+weblink.ip.conn2.test.
+weblink.ip.conn2.test.location : http://www.zebra.com/apps/linktest 
+weblink.ip.conn2.test.test_on : failure , Choices: off,failure,interval,both
+weblink.ip.conn2.test.retry_interval : 900 , Choices: 1-1800
+weblink.ip.conn2.num_connections : 0 
+weblink.cloud_connect.
+weblink.cloud_connect.enable : on , Choices: on,off
+weblink.cloud_connect.connect
+weblink.cloud_connect.status : NOT ACTIVE 
+weblink.cloud_connect.connection_key : 0000000000 
+weblink.cloud_connect.configuration_key : 0000000000 
+weblink.cloud_connect.configuration_confirmation : none , Choices: none,accept,reject,complete
+weblink.zebra_connector.
+weblink.zebra_connector.version : 0.08 
+weblink.zebra_connector.enable : on , Choices: on,off
+weblink.zebra_connector.proxy :  
+weblink.zebra_connector.authentication.
+weblink.zebra_connector.authentication.add
+weblink.zebra_connector.authentication.remove
+weblink.zebra_connector.authentication.entries :  
+capture.
+capture.channel1.
+capture.channel1.port : off , Choices: serial,usb,bt,parallel,off
+capture.channel1.delimiter : 
+ 
+capture.channel1.max_length : 1000 , Choices: 1-3000
+capture.channel1.count : 0 , Choices: 0-4294967295
+capture.channel1.data.
+capture.channel1.data.raw :  
+capture.channel1.data.mime :  
+nfc.
+cradle.
+ribbon.
+ribbon.part_number :  
+ribbon.serial_number :  
+""
